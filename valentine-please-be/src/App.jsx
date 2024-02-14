@@ -4,7 +4,7 @@ import './App.css'
 
 const phrases = [
   "No",
-  "Pakka Babu 🥺?",
+  "Please Babu 🥺?",
   "Please maan jao",
   "I'll be very sad😕",
   "Chauhan sahab please🥺",
@@ -17,7 +17,7 @@ const phrases = [
 function App() {
   var [noCount, setNoCount] = useState(0);
   const [yesPressed, setYesPressed] = useState(false);
-  const yesButtonSize = noCount * 20 + 16;
+  const yesButtonSize = noCount * 20 + 10;
 
   
   function handleYesClick() {
