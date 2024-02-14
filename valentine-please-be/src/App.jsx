@@ -10,14 +10,13 @@ const phrases = [
   "Chauhan sahab please🥺",
   "Don't do this to me🫤",
   "Mera Dil Deewana..😭",
-  "Deewana Hai ye Dil😭💔",
-  "Qutooooooooo plij"
+  "Deewana Hai ye Dil😭💔"  
 ];
 
 function App() {
   var [noCount, setNoCount] = useState(0);
   const [yesPressed, setYesPressed] = useState(false);
-  const yesButtonSize = noCount * 20 + 10;
+  const yesButtonSize = noCount * 20 + 16;
 
   
   function handleYesClick() {
@@ -39,12 +38,12 @@ function App() {
     <div className='valentine-container'>
       {yesPressed ? (
         <>
-          <img src="../src/assets/yesValentine.gif" alt="bear-Kissing" />
+          <img src="./assets/yesValentine.gif" alt="bear-Kissing" />
           <div className='text'>Yayyy !!!</div>
         </>
       ) : (
         <>
-          <img className='kiss' src="../src/assets/questionValentine.gif" alt="bear with heart" />
+          <img className='kiss' src="./assets/questionValentine.gif" alt="bear with heart" />
 
           <div className='text'>Will you be my valentine 🌹?</div>
           <div className='both-Button'>
