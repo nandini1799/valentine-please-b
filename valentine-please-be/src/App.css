@@ -5,11 +5,28 @@
   text-align: center;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
+.text{
+  font-size: 35px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style: italic;
+}
+.both-Button{
+  display: flex;
+  height: 20%;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
+.yesButton{
+  
+  background-color: #c90303dd;
+  color: #fff;
+  font-weight: bold;
+  transition: #8d0101 0.3s ease;
+}
 
+.yesButton:hover {
+  background-color: #8d0101; 
+}
