@@ -54,14 +54,16 @@ function App() {
     <div className='valentine-container'>
       {yesPressed ? (
         <>
-          <iframe src="../public/yes video.mp4" alt="bear-Kissing" />
-          <div className='text'>Yayyyyyyyyyyyyyyyy !!!!!!</div>
+          
+          <iframe className="kiss" src="../public/yes video.mp4" alt="bear-Kissing" />
+          <div className='text'>Yayyyyyyyyyyyyyyyy!!!!!! love you ❤️</div>
         </>
       ) : (
         <>
-          <iframe className='kiss' src="../public/question.mp4" alt="questionGIF" />
+          <iframe className='question' src="../public/question.mp4" alt="questionGIF" />
 
-          <div className='text'>Will you be my valentine, for forever🌹?</div>
+          <div className='text'>Will you be my valentine, for forever🌹?
+          <p className='para'>(Next years ke liye abhi se advance booking 😉)</p></div>
 
           <div className='both-Button'>
             <button className='yesButton'
