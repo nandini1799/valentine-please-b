@@ -1,0 +1,76 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+}
+.valentine-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  width: 100%;
+}
+.text{
+  font-size: 35px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style: normal;
+  color: #000000;
+}
+
+.para{
+  font-size: 12px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style: italic;
+  color: #000000;
+}
+
+.both-Button{
+  display: flex;
+  height: 10%;
+  width: 25%;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.yesButton{
+  
+  background-color: #c90303dd;
+  color: #fff;
+  font-weight: bold;
+  transition: #8d0101 0.3s ease;
+}
+
+.yesButton:hover {
+  background-color: #8d0101; 
+}
+
+.NoButton{
+  
+  background-color: #212020dd;
+  color: #fff;
+  font-weight: bold;
+  transition: #000000 0.3s ease;
+}
+
+.NoButton:hover {
+  background-color: #000000; 
+}
+
+.question{
+  height: 60%;
+  width: 50%;
+  justify-content: center;
+  border-style: none;
+  border-radius: 4px;
+}
+
+.kiss{
+  height: 60%;
+  width: 80%;
+  justify-content: center;
+  border-style: none;
+  border-radius: 4px;
+}
